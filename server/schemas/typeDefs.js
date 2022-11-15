@@ -34,4 +34,6 @@ const typeDefs = gql`
         saveBook(username: String!, authors: [String]!, description: String!, bookId: String!, image: String!, link: String!, title: String!): User
         removeBook(username: String!, bookId: String!): User
     }
-`
+`;
+
+module.exports = typeDefs;
